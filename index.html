@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-div">
+            <div class="form-heading">
+                <h1>Add New Book To Library</h1>
+    
+            </div>
+            <div class="books-heading">
+                <h1 class="h1-heading">Current Books In Library</h1>
+    
+            </div>
+        </div>
+        
+        <div class="form">
+            <button class="add-book-button">Add New Book</button><br/>
+            <div id="add-book-form"></div><br/>
+            <form id="add-book">
+                <label for="Title">Title:</label>
+                <input type="text" id="Title" name="Title"><br/><br/>
+                <label for="Author">Author:</label>
+                <input type="text" id="Author" name="Author"><br/><br/>
+                <label for="Pages">Pages:</label>
+                <input type="text" id="Pages" name="Pages"><br/><br/>
+                <label for="Read">Read:</label>
+                <select name="Read" id="Read">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+              
+            </form><br/>
+            <div>
+
+            <button type="submit" class="submit-button">Submit To Library</button>
+            <button type="reset" class="reset-button">Reset Form</button>
+
+
+            </div>
+        </div>
+        <div class="books">
+
+        </div>
+
+    </div> 
+    
+</body>
+</html>

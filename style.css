@@ -1,0 +1,30 @@
+* body{
+    /* background: #12262b; */
+    background: #28122b;
+}
+
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#add-book{
+    display: block;
+}
+
+.form{
+   /* background-color: red; */
+}
+
+#add-book .show{
+    display: block;
+}
